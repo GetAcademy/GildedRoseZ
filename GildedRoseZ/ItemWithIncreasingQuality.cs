@@ -1,6 +1,6 @@
 ﻿namespace GildedRoseZ
 {
-    internal class ItemWithIncreasingQuality : Item
+    internal class ItemWithIncreasingQuality : UpdatingItem
     {
         protected override void UpdateQuality()
         {

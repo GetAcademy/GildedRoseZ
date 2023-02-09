@@ -9,6 +9,7 @@ namespace GildedRoseZ
     internal class GildedRose
     {
         IList<Item> Items;
+
         public GildedRose(IList<Item> Items)
         {
             this.Items = Items;
@@ -17,4 +18,5 @@ namespace GildedRoseZ
         public void UpdateQuality()
         {
         }
+    }
 }
